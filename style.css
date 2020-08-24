@@ -1,6 +1,6 @@
 
 .navbar-custom { 
-    background-color: grey; 
+    background-color: black; 
 } 
 
 #navlogo-id{
@@ -16,4 +16,13 @@
     color: black;
     font-size: 36px;
     
+  }
+
+  .buttoncanonred{
+    background-color: #e31d1a;
+    color: white
+  }
+
+  .buttonblack{
+    color: white
   }
