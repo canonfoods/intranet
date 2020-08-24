@@ -14,38 +14,12 @@
 </head>
 <nav>
   <div class="navbar-custom">
-   <a href="#" class="w3-bar-item w3-button w3-mobile w3-black">Home</a>
-   <a href="#" class="w3-bar-item w3-button w3-mobile">Procedures</a>
-   <a href="#" class="w3-bar-item w3-button w3-mobile">Templates</a>
-   <div class="w3-dropdown-hover w3-mobile">
-     <button class="w3-button">Information <i class="fa fa-caret-down"></i></button>
-     <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
-       <a href="#" class="w3-bar-item w3-button w3-mobile">Contact List</a>
-       <a href="#" class="w3-bar-item w3-button w3-mobile">Useful Links</a>
-       <a href="#" class="w3-bar-item w3-button w3-mobile">Other Information</a>
-     </div>
-   </div>
-     <div class="w3-dropdown-hover w3-mobile">
-       <button class="w3-button">Forms<i class="fa fa-caret-down"></i></button>
-       <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
-         <a href="https://github.com/canonfoods/intranet/blob/master/Documents/LeaveForm.pdf" class="w3-bar-item w3-button w3-mobile" target="_blank">Leave Form</a>
-         <a href="#" class="w3-bar-item w3-button w3-mobile">Form 2</a>
-         <a href="#" class="w3-bar-item w3-button w3-mobile">Form 3</a>
-       </div>
-     </div>
-       <div class="w3-dropdown-hover w3-mobile">
-         <button class="w3-button">Links<i class="fa fa-caret-down"></i></button>
-         <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
-           <a href="https://canonfoods-xi-01.prontohosted.com.au" class="w3-bar-item w3-button w3-mobile" target="_blank"> Pronto</a>
-           <a href="#" class="w3-bar-item w3-button w3-mobile" target="_blank">Cognos</a>
-           <a href="https://www.canonfoods.com.au" class="w3-bar-item w3-button w3-mobile" target="_blank">Website</a>
-         </div>
-       </div>
      <img src="https://github.com/canonfoods/intranet/blob/master/Images/CanonFoods-Logo-CMYK.png?raw=true" alt="Canon Logo" style="float: right; height: 2cm;position:fixed;right: 275px; top: 5px"> 
-      <img src="https://github.com/canonfoods/intranet/blob/master/Images/CanonFoods_ChevupsOriginal_Logo_RGB_web.png?raw=true" alt="Canon Logo" style="float: right; height: 2cm;position:fixed;right: 150px; top: 5px"> 
-       <img src="https://github.com/canonfoods/intranet/blob/master/Images/get-vegged-shield-noveg.png?raw=true" alt="Canon Logo" style="float: right; height: 2.5cm;position:fixed;right: 10px; top: 0px"> 
- 
+      <img src="https://github.com/canonfoods/intranet/blob/master/Images/get-vegged-shield-noveg.png?raw=true" alt="Canon Logo" style="float: right; height: 2cm;position:fixed;right: 150px; top: 5px"> 
+       <img src="https://github.com/canonfoods/intranet/blob/master/Images/CanonFoods_ChevupsOriginal_Logo_RGB_web.png?raw=true" alt="Canon Logo" style="float: right; height: 2.5cm;position:fixed;right: 10px; top: 0px"> 
+       
    </div>
+
  </nav>
 <body>
   <div class="container-fluid">
@@ -60,6 +34,30 @@
       </div>
     </div>
   </div>
+
+  <form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="https://github.com/canonfoods/intranet/blob/master/Images/CanonFoods-Logo-CMYK.png?raw=true" alt="Logo" style="height: 5cm;">
+    </div>
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
 
 </body>
 
