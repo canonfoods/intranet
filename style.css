@@ -1,0 +1,10 @@
+
+.navbar-custom { 
+    background-color: grey; 
+} 
+
+#navlogo-id{
+    position: fixed;
+    right: 10px;
+    top: 5px;
+  }
